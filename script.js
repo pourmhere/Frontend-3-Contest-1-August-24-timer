@@ -12,9 +12,9 @@ setButton.addEventListener("click", () => {
     addTimer(totalSeconds);
   }
 
-  document.getElementById("hours").value = "00";
-  document.getElementById("minutes").value = "00";
-  document.getElementById("seconds").value = "00";
+  document.getElementById("hours").placeholder = "00";
+  document.getElementById("minutes").placeholder = "00";
+  document.getElementById("seconds").placeholder = "00";
 });
 
 function addTimer(duration) {
