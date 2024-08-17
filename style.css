@@ -1,0 +1,135 @@
+body {
+  background-color: #1d1d23;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 20px 0 0 0;
+}
+
+.app-container {
+  text-align: center;
+}
+
+.set-timer {
+  width: 450px;
+  /* margin-bottom: 20px; */
+  padding: 20px 20px;
+  background-color: #34344a;
+  /* background-color: red; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="number"] {
+  width: 30px;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  background-color: transparent;
+  /* background-color: red; */
+  color: white;
+  outline: transparent;
+  text-decoration: underline;
+  padding: 5px;
+  /* border-radius: 5px; */
+  /* margin: 0 5px; */
+  /* font-weight: bolder; */
+}
+
+/* hint text color */
+::-ms-input-placeholder {
+  /* Edge 12-18 */
+  color: white;
+  font-weight: bolder;
+}
+::placeholder {
+  color: white;
+  font-weight: bolder;
+  /* opacity: 1; Firefox */
+}
+/* hint text color */
+
+/*  */
+/* start      Remove Arrows/Spinners */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+/* end        Remove Arrows/Spinners */
+
+button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f757;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+button#deleteButton {
+  background-color: #ff4c4c;
+}
+
+button:disabled {
+  background-color: #444;
+  cursor: not-allowed;
+}
+
+h4 {
+  display: inline-flex;
+  width: 300px;
+  /* background-color: red; */
+  background-color: #39393e;
+  border-radius: 50px;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.current-timers {
+  margin: 10px;
+  /* text-align: center; */
+  /* font-weight: 100; */
+  /* font-size: 16px; */
+  /* background-color: teal; */
+}
+
+.timer {
+  margin-bottom: 10px;
+  display: flex;
+  width: 450px;
+  /* margin-bottom: 20px; */
+  padding: 20px 20px;
+  background-color: #34344a;
+  /* background-color: red; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* .timer span {
+  margin-right: 10px;
+}
+
+.timer button {
+  margin-left: 10px;
+}
+
+.timerElement {
+  display: flex;
+  justify-content: space-between;
+} */
