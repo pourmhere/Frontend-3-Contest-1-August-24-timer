@@ -11,6 +11,10 @@ setButton.addEventListener("click", () => {
   if (totalSeconds > 0) {
     addTimer(totalSeconds);
   }
+
+  document.getElementById("hours").value = "00";
+  document.getElementById("minutes").value = "00";
+  document.getElementById("seconds").value = "00";
 });
 
 function addTimer(duration) {
